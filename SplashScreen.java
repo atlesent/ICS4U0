@@ -1,0 +1,39 @@
+import java.awt.*;
+import java.io.*;
+
+public class SplashScreen extends Screen 
+{
+  private FinalFantakeyIApp frame;
+  private imageSet logo; 
+  
+  public SplashScreen (FinalFantakeyIApp frame)
+  {
+    super ("Splash Screen");
+    this.frame = frame; 
+    
+    try
+    {
+      logo = new imageSet ("fantakeylogo.jpeg");
+    }
+    catch (IOException e)
+    {
+    }
+  }
+  
+  public void screen(Graphics2D g)
+  {
+    g.drawImage (logo.image(), 300, 100, null);
+  }
+  
+  public void tick ()
+  {
+  }
+  
+  public void refresh (Graphics g)
+  {
+    Graphics2D gD = (Graphics2D) g;
+    gD.setBackground (new Color (0,0,0,255));
+   // gD.clearRect(0,0,1000,600);
+    screen (gD);
+  }
+}
