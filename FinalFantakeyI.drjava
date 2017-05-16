@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drjava version="drjava-20140826-r5761">
+  <project autorefresh="false" root="" work="">
+    <createjar file=""/>
+    <source>
+      <file active="true" name="SplashScreen.java" package="" timestamp="16-May-2017 10:20:38">
+        <select from="615" to="615"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="Screen.java" package="" timestamp="16-May-2017 00:37:40">
+        <select from="615" to="615"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="imageSet.java" package="" timestamp="15-May-2017 09:29:04">
+        <select from="615" to="615"/>
+        <scroll column="0" row="0"/>
+      </file>
+      <file name="FinalFantakeyIApp.java" package="" timestamp="16-May-2017 10:20:38">
+        <select from="615" to="615"/>
+        <scroll column="0" row="0"/>
+      </file>
+    </source>
+    <included/>
+    <excluded/>
+    <collapsed/>
+    <classpath/>
+    <breakpoints/>
+    <watches/>
+    <bookmarks/>
+    <preferences/>
+  </project>
+</drjava>
